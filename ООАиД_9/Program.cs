@@ -7,7 +7,7 @@ namespace ООАиД_9
     {
         static void Main()
         {
-            Component fileSystem = new Directory("Файловая система");
+            Component fileSystem = new Directory("Файловая система");//
             // определяем новый диск
             Component diskC = new Directory("Диск С");
             // новые файлы
