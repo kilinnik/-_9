@@ -78,7 +78,7 @@ namespace ООАиД_9
         {
             int size = 0;
             foreach (var item in files) size += item.Size();
-            foreach (var dir in folders) size += dir.Size();//
+            foreach (var dir in folders) size += dir.Size();
             return size;
         }
         //public override void Print()
