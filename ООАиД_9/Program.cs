@@ -16,6 +16,7 @@ namespace ООАиД_9
             // добавляем файлы на диск С
             diskC.AddFile(pngFile);
             diskC.AddFile(docxFile);
+
             // добавляем диск С в файловую систему
             fileSystem.AddFolder(diskC);
             // удаляем с диска С файл
